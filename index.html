@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRON INVADERS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="imgs/alien.png" type="img/png">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">$TRONI</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#section1">Main</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section2">Tokenomics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section3">Aelion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section4">Play!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+  <section class="landing-container" id="section1">
+    <img src="imgs/alienx.png" alt="Arcade Retro" class="arcade-image" width="600px">
+    <h1 class="landing-title">Welcome to Aliens on Tronx</h1>
+    <p class="landing-subtitle">Are you ready to fight against the TRX Invasion?</p>
+    <a href="https://twitter.com/AlienXSOL" target="_blank" class="btn btn-transparent" onmouseover="changeText(this, 'Twitter')"  onmouseout="changeText(this, '1 Player')">1 Player</a>
+    <a href="https://t.me/ETHINVASION" target="_blank" class="btn btn-transparent" onmouseover="changeText(this, 'Telegram')" onmouseout="changeText(this, '2 Player')">2 Player</a>
+    <a href="https://t.me/ETHINVASION" target="_blank" class="btn btn-transparent" onmouseover="changeText(this, 'Dextools')" onmouseout="changeText(this, 'Dextools')">Options</a>
+
+  </section>
+
+  
+  <section class="container py-5" id="section2">
+    <div class="row text-center">
+      <!-- Card 1 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="imgs/tax.png" alt="Taxes" class="card-img-top">
+          <div class="card-body">
+            <p class="card-title">NO TAX</p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="imgs/locked.png" alt="Locked" class="card-img-top">
+          <div class="card-body">
+            <p class="card-title">5% TEAM</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card 3 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="imgs/burn.png" alt="Burn" class="card-img-top">
+          <div class="card-body">
+            <p class="card-title">FIGHT!</p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card 4 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="imgs/milady.png" alt="Milady" class="card-img-top">
+          <div class="card-body">
+            <p class="card-title">TRX ALIENS</p>
+            <p class="card-text"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid" id="section3">
+    <div class="row">
+      <div class="col-md-6 tweet-container">
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr"></p>
+          <a href="https://twitter.com/elonmusk/status/1684585441947947008" target="_blank">Tweet</a>
+        </blockquote>
+        <br><br>
+        <p>Welcome to Tronx World!
+            In a distant galaxy, the extraordinary world of Solana was known for its technological wonders. When the mischievous TRX Alien Horde threatened the cosmos, visionary Elon Musk joined forces with the ingenious solarians. Together, they constructed the mighty spacecraft "ALIENX" capable of interstellar combat.
+            As the Alien Horde descended upon the galaxy, Elon Musk fearlessly piloted the spacecraft, engaging in epic battles against the invaders. With advanced weaponry and strategic brilliance, they defended the universe from the alien threat.      
+            In honor of their heroic efforts, they minted the "TRONI" a memecoin symbolizing unity, resilience, and their victorious stand against the Alien Horde.</p>
+      </div>
+
+      <div class="col-md-6">
+        <div class="text-container">
+        </div>
+        <div class="image-bg-container">
+          <img src="imgs/elonalienx.png" alt="Image" class="side-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid" id="section4">
+    <div class="row">
+      <div class="col-md-12 iframe-container">
+        <iframe id="" src="https://jpritcha3-14.github.io/shooting-game-js/" scrolling="no" width="2200px" frameborder="0" height="900px"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+  <script>
+    function changeText(element, newText) {
+      element.innerHTML = newText;
+    }
+
+    function resizeIframe() {
+      var iframe = document.getElementById('myIframe');
+      iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
+
+    function changeText(element, newText) {
+      element.textContent = newText;
+    }
+  </script>
+
+</body>
+</html>
